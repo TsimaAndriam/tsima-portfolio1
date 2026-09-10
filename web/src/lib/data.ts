@@ -67,7 +67,7 @@ export type Project = {
   tag: string;
   status: "live" | "progress";
   url?: string;
-  art: "t1" | "t2" | "t3" | "t4";
+  art: "t1" | "t2" | "t3" | "t4" | "t5";
 };
 
 export const projects: Project[] = [
@@ -106,5 +106,14 @@ export const projects: Project[] = [
     status: "live",
     url: "https://www.rli.mg",
     art: "t3",
+  },
+  {
+    slug: "portfolio-personnel",
+    name: "Portfolio personnel",
+    description: "Ce site lui-même — design Figma, front-end Next.js, API C#/.NET, déployé gratuitement.",
+    tag: "En ligne",
+    status: "live",
+    url: "https://tsima-portfolio1.vercel.app",
+    art: "t5",
   },
 ];

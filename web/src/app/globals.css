@@ -221,6 +221,7 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 600; margin: 0; }
 .thumb-art.t2 { background: linear-gradient(135deg, var(--gold), var(--csharp)); }
 .thumb-art.t3 { background: linear-gradient(135deg, var(--jade), var(--select)); }
 .thumb-art.t4 { background: repeating-linear-gradient(45deg, var(--ink-card), var(--ink-card) 8px, var(--ink-card-2) 8px, var(--ink-card-2) 16px); }
+.thumb-art.t5 { background: linear-gradient(135deg, var(--red), var(--gold)); }
 .thumb-body { padding: 14px 16px 16px; }
 .thumb-body h3 { font-family: var(--font-ui); font-size: 14.5px; font-weight: 700; }
 .thumb-body p { font-size: 12.5px; color: var(--ivory-dim); margin: 5px 0 10px; }

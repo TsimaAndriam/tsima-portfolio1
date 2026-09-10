@@ -47,5 +47,15 @@ public static class ProjectsData
             Url = "https://www.rli.mg",
             Art = "t3",
         },
+        new Project
+        {
+            Slug = "portfolio-personnel",
+            Name = "Portfolio personnel",
+            Description = "Ce site lui-même — design Figma, front-end Next.js, API C#/.NET, déployé gratuitement.",
+            Tag = "En ligne",
+            Status = "live",
+            Url = "https://tsima-portfolio1.vercel.app",
+            Art = "t5",
+        },
     };
 }
