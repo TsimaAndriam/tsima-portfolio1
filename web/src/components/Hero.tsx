@@ -16,8 +16,6 @@ export default function Hero() {
                 <span>Photo</span>
                 <span className="dim">172 × 172</span>
               </div>
-              <div className="square square-top"></div>
-              <div className="square square-bottom"></div>
               <div className="frame-mini">
                 <Image
                   src="/photo1.png"
