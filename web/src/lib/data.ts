@@ -101,10 +101,9 @@ export const projects: Project[] = [
   {
     slug: "rli",
     name: "RLI",
-    description: "Second site du groupe NO COMMENT — back-end.",
-    tag: "2015 – 2023",
+    description: "Second site du groupe NO COMMENT — back-end. Site actuellement hors ligne.",
+    tag: "2015 – 2018",
     status: "live",
-    url: "https://www.rli.mg",
     art: "t3",
   },
   {

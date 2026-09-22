@@ -41,10 +41,9 @@ public static class ProjectsData
         {
             Slug = "rli",
             Name = "RLI",
-            Description = "Second site du groupe NO COMMENT — back-end.",
-            Tag = "2015 – 2023",
+            Description = "Second site du groupe NO COMMENT — back-end. Site actuellement hors ligne.",
+            Tag = "2015 – 2018",
             Status = "live",
-            Url = "https://www.rli.mg",
             Art = "t3",
         },
         new Project

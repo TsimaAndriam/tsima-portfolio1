@@ -216,8 +216,30 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 600; margin: 0; }
 .dirlist div { padding: 3px 0; }
 .dirlist .path { color: var(--gold); }
 .thumb-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+
+/* Old Thumb-card */
+/*
 .thumb-card { border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: var(--ink-card-2); }
 .thumb-card.progress { border-style: dashed; border-color: var(--figma); }
+*/
+
+/* New Thumb-card */
+.thumb-card {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--ink-card-2);
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+.thumb-card:hover {
+  border-color: var(--gold);
+  transform: translateY(-3px);
+}
+.thumb-card.progress:hover {
+  border-color: var(--figma);
+}
+/* End new Thumb-card */
+
 .thumb-art { height: 100px; }
 .thumb-art.t1 { background: linear-gradient(135deg, var(--select), var(--figma)); }
 .thumb-art.t2 { background: linear-gradient(135deg, var(--gold), var(--csharp)); }
@@ -240,6 +262,13 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 600; margin: 0; }
 
 @media (max-width: 560px) {
   .thumb-grid { grid-template-columns: 1fr; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .reveal { opacity: 1; transform: none; transition: none; }
+  .caret { animation: none; }
+  .thumb-card { transition: none; }
 }
 
 /* Fin Style Frame Projets */
