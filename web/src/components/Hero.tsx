@@ -36,8 +36,7 @@ export default function Hero() {
               </h1>
               <p className="hero-role">
                 <b>Designer produit (Figma)</b> et <b>développeur C#</b> en
-                apprentissage actif — adossé à 9 ans d&apos;expérience en
-                développement front-end et gestion de sites web.
+                apprentissage actif — capitalisant sur 9 ans de gestion et maintenance de sites web (WordPress, back-office, mises à jour de contenu).
               </p>
 
               <div className="terminal">
@@ -50,7 +49,7 @@ export default function Hero() {
                   <div>
                     <span className="prompt">$</span> whoami --focus
                   </div>
-                  <TypedLine text="Designer Figma & développeur C# en apprentissage, adossé à 9 ans de front-end web." />
+                  <TypedLine text="Designer Figma & dev C# (apprentissage) — 9 ans en gestion de sites web." />
                 </div>
               </div>
 
