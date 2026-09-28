@@ -11,25 +11,6 @@ export type Experience = {
 
 export const experiences: Experience[] = [
   {
-    hash: "a3f9c21",
-    title: "Informaticien",
-    company: "Sté RAC SERVICES, Madagascar",
-    dates: "déc. 2022 → aujourd'hui",
-    current: true,
-    bullets: ["Responsable des mises à jour des pages des réseaux sociaux"],
-  },
-  {
-    hash: "7e1b4a0",
-    title: "Responsable informatique",
-    company: "Sté Sophie Shop Mada, Madagascar",
-    dates: "sept. 2022 → aujourd'hui",
-    current: true,
-    bullets: [
-      "Maintenance des ordinateurs (software et hardware)",
-      "Mises à jour des pages des réseaux sociaux",
-    ],
-  },
-  {
     hash: "4d82f13",
     title: "Administrateur informatique",
     company: "Sté Comptassistance, Madagascar",
@@ -39,6 +20,25 @@ export const experiences: Experience[] = [
       "Mises à jour du site www.comptassistance.com (back-end)",
       "Maintenance des ordinateurs (software et hardware)",
     ],
+  },
+  {
+    hash: "7e1b4a0",
+    title: "Responsable informatique",
+    company: "Sté Sophie Shop Mada, Madagascar",
+    dates: "déc. 2024 → mars 2026",
+    current: true,
+    bullets: [
+      "Maintenance des ordinateurs (software et hardware)",
+      "Mises à jour des pages des réseaux sociaux",
+    ],
+  },
+  {
+    hash: "a3f9c21",
+    title: "Responsable informatique",
+    company: "Sté RAC SERVICES, Madagascar",
+    dates: "déc. 2022 → sep. 2024",
+    current: true,
+    bullets: ["Responsable des mises à jour des pages des réseaux sociaux"],
   },
   {
     hash: "1c60ab9",
