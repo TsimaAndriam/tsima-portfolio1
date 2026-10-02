@@ -106,7 +106,7 @@ app.MapPost("/api/contact", async (ContactRequest request, IHttpClientFactory ht
 
     var payload = new
     {
-        sender = new { name = "Portfolio Tsima", email = contactEmail },
+        sender = new { name = "Portfolio Tsima", email = "contact@tsima.is-a.dev" },
         to = new[] { new { email = contactEmail, name = "Tsima" } },
         replyTo = new { email = request.Email, name = request.Name },
         subject = $"Nouveau message depuis le portfolio — {request.Name}",
