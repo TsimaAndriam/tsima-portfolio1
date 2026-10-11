@@ -67,6 +67,8 @@ export type Project = {
   tag: string;
   status: "live" | "progress";
   url?: string;
+  image?: string;
+  archiveUrl?: string;
   art: "t1" | "t2" | "t3" | "t4" | "t5";
 };
 
@@ -95,7 +97,8 @@ export const projects: Project[] = [
     description: "Site du groupe — back-end et fiches partenaires.",
     tag: "2015 – 2023",
     status: "live",
-    url: "https://www.nocomment.mg",
+    image: "/nocomment-ancien.png",
+    archiveUrl: "https://web.archive.org/web/20190921104223/http://www.nocomment.mg/",
     art: "t2",
   },
   {
@@ -104,6 +107,8 @@ export const projects: Project[] = [
     description: "Second site du groupe NO COMMENT — back-end. Site actuellement hors ligne.",
     tag: "2015 – 2018",
     status: "live",
+    image: "/rli-ancien.png",
+    archiveUrl: "https://web.archive.org/web/20170603231813/http://rli.mg/",
     art: "t3",
   },
   {
@@ -112,7 +117,7 @@ export const projects: Project[] = [
     description: "Ce site lui-même — design Figma, front-end Next.js, API C#/.NET, déployé gratuitement.",
     tag: "En ligne",
     status: "live",
-    url: "https://tsima-portfolio1.vercel.app",
+    url: "https://tsima.is-a.dev",
     art: "t5",
   },
 ];

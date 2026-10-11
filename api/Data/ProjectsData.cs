@@ -34,7 +34,8 @@ public static class ProjectsData
             Description = "Site du groupe — back-end et fiches partenaires.",
             Tag = "2015 – 2023",
             Status = "live",
-            Url = "https://www.nocomment.mg",
+            Image = "/nocomment-ancien.png",
+            ArchiveUrl = "https://web.archive.org/web/20190921104223/http://www.nocomment.mg/",
             Art = "t2",
         },
         new Project
@@ -44,6 +45,8 @@ public static class ProjectsData
             Description = "Second site du groupe NO COMMENT — back-end. Site actuellement hors ligne.",
             Tag = "2015 – 2018",
             Status = "live",
+            Image = "/rli-ancien.png",
+            ArchiveUrl = "https://web.archive.org/web/20170603231813/http://rli.mg/",
             Art = "t3",
         },
         new Project
@@ -53,7 +56,7 @@ public static class ProjectsData
             Description = "Ce site lui-même — design Figma, front-end Next.js, API C#/.NET, déployé gratuitement.",
             Tag = "En ligne",
             Status = "live",
-            Url = "https://tsima-portfolio1.vercel.app",
+            Url = "https://tsima.is-a.dev",
             Art = "t5",
         },
     };

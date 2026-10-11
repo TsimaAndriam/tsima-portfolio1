@@ -9,6 +9,8 @@ public class Project
 
     // "live" ou "progress" — reflète le statut affiché côté Next.js
     public string Status { get; set; } = "live";
+    public string? Image { get; set; }
+    public string? ArchiveUrl { get; set; }
     public string? Url { get; set; }
 
     // Nom du dégradé CSS utilisé côté front (t1, t2, t3, t4)

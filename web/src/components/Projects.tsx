@@ -1,4 +1,5 @@
 import { projects } from "@/lib/data";
+import ProjectThumb from "./ProjectThumb";
 
 export default function Projects() {
   return (
@@ -25,7 +26,8 @@ export default function Projects() {
                 key={p.slug}
                 className={`thumb-card${p.status === "progress" ? " progress" : ""}`}
               >
-                <div className={`thumb-art ${p.art}`} />
+                
+                <ProjectThumb project={p} />
                 <div className="thumb-body">
                   <h3>{p.name}</h3>
                   <p>{p.description}</p>
@@ -38,6 +40,14 @@ export default function Projects() {
                       <br />
                       <a className="thumb-link" href={p.url} target="_blank" rel="noopener">
                         {p.url.replace("https://", "")} ↗
+                      </a>
+                    </>
+                  )}
+                  {p.archiveUrl && (
+                    <>
+                      <br />
+                      <a className="thumb-link" href={p.archiveUrl} target="_blank" rel="noopener">
+                        Voir la version archivée ↗
                       </a>
                     </>
                   )}
