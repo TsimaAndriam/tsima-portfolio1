@@ -25,6 +25,7 @@ public static class ProjectsData
             Description = "Nouvelle version en Figma Design & Figma Sites, page unique à défilement.",
             Tag = "En cours dans Figma",
             Status = "progress",
+            Image = "/compta-screen.png",
             Art = "t4",
         },
         new Project

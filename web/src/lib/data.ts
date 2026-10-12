@@ -88,6 +88,7 @@ export const projects: Project[] = [
     description: "Nouvelle version en Figma Design & Figma Sites, page unique à défilement.",
     tag: "En cours dans Figma",
     status: "progress",
+    image: "/compta-screen.png",
     art: "t4",
   },
   {
