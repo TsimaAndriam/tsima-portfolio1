@@ -31,7 +31,7 @@ public static class ProjectsData
         {
             Slug = "nocomment",
             Name = "NO COMMENT®",
-            Description = "Site du groupe — back-end et fiches partenaires.",
+            Description = "Gestion des contenus médias (audio, photos, textes) et des fiches partenaires. Site refondu depuis.",
             Tag = "2015 – 2023",
             Status = "live",
             Image = "/nocomment-ancien.png",
@@ -42,7 +42,7 @@ public static class ProjectsData
         {
             Slug = "rli",
             Name = "RLI",
-            Description = "Second site du groupe NO COMMENT — back-end. Site actuellement hors ligne.",
+            Description = "Gestion des contenus médias du site de la radio RLI FM 106. Site retiré.",
             Tag = "2015 – 2018",
             Status = "live",
             Image = "/rli-ancien.png",

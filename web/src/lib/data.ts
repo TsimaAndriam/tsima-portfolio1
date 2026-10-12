@@ -85,8 +85,7 @@ export const projects: Project[] = [
   {
     slug: "comptassistance-refonte",
     name: "Comptassistance — refonte",
-    description:
-      "Nouvelle version en Figma Design & Figma Sites, page unique à défilement.",
+    description: "Nouvelle version en Figma Design & Figma Sites, page unique à défilement.",
     tag: "En cours dans Figma",
     status: "progress",
     art: "t4",
@@ -94,7 +93,7 @@ export const projects: Project[] = [
   {
     slug: "nocomment",
     name: "NO COMMENT®",
-    description: "Site du groupe — back-end et fiches partenaires.",
+    description: "Gestion des contenus médias (audio, photos, textes) et des fiches partenaires. Site refondu depuis.",
     tag: "2015 – 2023",
     status: "live",
     image: "/nocomment-ancien.png",
@@ -104,7 +103,7 @@ export const projects: Project[] = [
   {
     slug: "rli",
     name: "RLI",
-    description: "Second site du groupe NO COMMENT — back-end. Site actuellement hors ligne.",
+    description: "Gestion des contenus médias du site de la radio RLI FM 106. Site retiré.",
     tag: "2015 – 2018",
     status: "live",
     image: "/rli-ancien.png",
