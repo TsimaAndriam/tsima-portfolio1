@@ -568,3 +568,27 @@ footer { padding: 32px 0 56px; }
 }
 
 /* Fin nouveau thumb css */
+
+
+/* Amélioration code pour terminal dans Compétences */
+
+.skill-panel.cs .learn-list li { padding-left: 22px; }
+.skill-panel.cs .learn-list li::before {
+  content: "✓";
+  top: 6px;
+  width: auto;
+  height: auto;
+  background: none;
+  color: var(--jade);
+  font-family: var(--font-mono);
+  font-size: 12px;
+}
+
+.code-win-bar .fname {
+  width: auto;
+  height: auto;
+  background: none;
+  border-radius: 0;
+}
+
+/* Fin code pour terminal dans Compétences */

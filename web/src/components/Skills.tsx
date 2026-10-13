@@ -48,27 +48,34 @@ export default function Skills() {
                   <span />
                   <span />
                   <span />
-                  <span className="fname">Program.cs</span>
+                  <span className="fname">ContactRequest.cs</span>
                 </div>
                 <pre>
-                  <span className="cs-kw">using</span> System{"\n\n"}
-                  <span className="cs-kw">class</span> Program{"\n"}
-                  {"{\n"}
-                  {"    "}
-                  <span className="cs-kw">static void</span> Main(){"\n"}
-                  {"    {\n"}
-                  {"        "}Console.WriteLine(
-                  <span className="cs-str">
-                    &quot;Bonjour, je code en C# !&quot;
-                  </span>
-                  ); <span className="cs-cm">{"// en cours d'apprentissage"}</span>
-                  {"\n    }\n}"}
+                  <span className="cs-kw">using</span>{" System.ComponentModel.DataAnnotations;\n\n"}
+                  <span className="cs-kw">namespace</span>{" Api.Models;\n\n"}
+                  <span className="cs-kw">public class</span>{" ContactRequest\n{\n"}
+                    {"    [Required(ErrorMessage = "}<span className="cs-str">{'"Le nom est requis."'}</span>{")]\n"}
+                    {"    [MaxLength(120)]\n"}
+                    {"    "}<span className="cs-kw">public string</span>{" Name { get; set; } = "}<span className="cs-str">{'""'}</span>{";\n\n"}
+                    {"    [Required(ErrorMessage = "}<span className="cs-str">{'"L\'e-mail est requis."'}</span>{")]\n"}
+                    {"    [EmailAddress(ErrorMessage = "}<span className="cs-str">{'"L\'e-mail n\'est pas valide."'}</span>{")]\n"}
+                    {"    "}<span className="cs-kw">public string</span>{" Email { get; set; } = "}<span className="cs-str">{'""'}</span>{";\n\n"}
+                    {"    "}<span className="cs-cm">{"// … Message : même principe"}</span>{"\n}"}
                 </pre>
               </div>
+
+              <p className="core-label">{"// appris sur ce projet"}</p>
+                <ul className="learn-list">
+                  <li>API minimale ASP.NET Core</li>
+                  <li>Validation (Data Annotations)</li>
+                  <li>Appel d&apos;API externe (HttpClient)</li>
+                  <li>Variables d&apos;environnement et CORS</li>
+                  <li>Déploiement Docker (Render)</li>
+                </ul>
               <p className="note">
-                Socle existant en logique de programmation
-                (HTML/CSS/JavaScript, Java, Visual Studio) sur lequel
-                s&apos;appuie l&apos;apprentissage de C#.
+                Extrait de l&apos;API de ce portfolio. J&apos;apprends le C# en la
+                construisant, en m&apos;appuyant sur mon socle en JavaScript, Java et
+                Visual Studio.
               </p>
             </div>
           </div>
