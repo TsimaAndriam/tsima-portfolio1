@@ -49,7 +49,7 @@ export default function Hero() {
                   <div>
                     <span className="prompt">$</span> whoami --focus
                   </div>
-                  <TypedLine text="Designer Figma & dev C# (apprentissage) — 9 ans en gestion de sites web." />
+                  <TypedLine text="9 ans en gestion de sites web → aujourd&apos;hui Figma & C# → à terme le game design." />
                 </div>
               </div>
 

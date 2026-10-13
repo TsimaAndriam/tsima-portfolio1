@@ -11,11 +11,11 @@ export default function About() {
             <div className="pin-row">
               <div className="pin">1</div>
               <div className="pin-bubble">
-                « Après ces 9 années d&apos;expériences en informatique,
-                j&apos;ai envie d&apos;évoluer au sein d&apos;une plus
-                grande structure. Mais aussi d&apos;atteindre mon rêve de
-                créer une application un jour, pourquoi pas ? »
-                <footer>— note de Tsima, tirée de son CV</footer>
+                « Après 9 ans à gérer des sites web, je me forme aujourd&apos;hui au design (Figma) et 
+                à la programmation (C#), avec l&apos;objectif d&apos;évoluer vers des projets de conception 
+                et de développement. Plus tard, j&apos;aimerais me tourner vers le jeu vidéo — devenir game designer 
+                et, un jour, créer mon propre jeu. »
+                <footer>— mon parcours en quelques mots</footer>
               </div>
             </div>
             <div>
@@ -40,7 +40,7 @@ export default function About() {
                 </div>
                 <div className="prop-item">
                   <b>Loisirs</b>
-                  <span>échecs, Internet, artiste</span>
+                  <span>échecs, Internet, guitare</span>
                 </div>
               </div>
             </div>
