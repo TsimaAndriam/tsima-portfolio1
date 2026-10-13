@@ -12,12 +12,12 @@ export type Experience = {
 export const experiences: Experience[] = [
   {
     hash: "4d82f13",
-    title: "Administrateur informatique",
+    title: "Administrateur informatique (en freelance)",
     company: "Sté Comptassistance, Madagascar",
     dates: "juin 2017 → aujourd'hui",
     current: true,
     bullets: [
-      "Mises à jour du site www.comptassistance.com (back-end)",
+      "Mises à jour du site www.comptassistance.com (Gestion des contenus médias)",
       "Maintenance des ordinateurs (software et hardware)",
     ],
   },
@@ -36,7 +36,7 @@ export const experiences: Experience[] = [
     hash: "a3f9c21",
     title: "Responsable informatique",
     company: "Sté RAC SERVICES, Madagascar",
-    dates: "déc. 2022 → sep. 2024",
+    dates: "déc. 2023 → sep. 2024",
     current: true,
     bullets: ["Responsable des mises à jour des pages des réseaux sociaux"],
   },
@@ -44,12 +44,12 @@ export const experiences: Experience[] = [
     hash: "1c60ab9",
     title: "Assistant webmaster",
     company: "Groupe NO COMMENT®, Madagascar",
-    dates: "juin 2015 → déc. 2023",
+    dates: "juin 2015 → mai 2023",
     current: false,
     bullets: [
-      "Mises à jour du site www.nocomment.mg (back-end)",
+      "Mises à jour du site www.nocomment.mg (Gestion des contenus médias)",
       "Fiches partenaires de la Sté NO COMMENT®",
-      "Mises à jour du site www.rli.mg (back-end)",
+      "Mises à jour du site www.rli.mg (Gestion des contenus médias)",
       "Maintenance des ordinateurs (software et hardware)",
     ],
   },
@@ -76,7 +76,7 @@ export const projects: Project[] = [
   {
     slug: "comptassistance",
     name: "Comptassistance",
-    description: "Cabinet comptable malgache — mises à jour back-end.",
+    description: "Cabinet comptable malgache — Gestion des contenus médias.",
     tag: "Depuis juin 2017",
     status: "live",
     url: "https://www.comptassistance.com",

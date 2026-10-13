@@ -12,7 +12,7 @@ public static class ProjectsData
         {
             Slug = "comptassistance",
             Name = "Comptassistance",
-            Description = "Cabinet comptable malgache — mises à jour back-end.",
+            Description = "Cabinet comptable malgache — Gestion des contenus médias.",
             Tag = "Depuis juin 2017",
             Status = "live",
             Url = "https://www.comptassistance.com",
